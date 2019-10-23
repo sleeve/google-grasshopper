@@ -223,7 +223,11 @@ if (bananas !== 'green') {
 //
 
 // Modifier Math
-
+var x = 5;
+x = x + 1;
+print('x is ' + x);
+x = x - 2;
+print('x is now ' + x);
 
 
 
