@@ -229,6 +229,12 @@ print('x is ' + x);
 x = x - 2;
 print('x is now ' + x);
 
+// Simply More Math
+var y = 10;
+y = y * 2;
+print(y);
+y = y / 3;
+print(y);
 
 
 
