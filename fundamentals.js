@@ -273,23 +273,97 @@ if (x > 10 || y > 10) {
 //
 
 // String Looping
+for (var letter of 'grasshopper') {
+    print(letter);
+}
 
+// Longer Rainbow
+for (var x of [
+    'red',
+    'orange',
+    'yellow',
+    'green',
+    'blue',
+    'indigo',
+    'violet'
+]) {
+    drawBox(x);
+    drawBox(x);
+    drawBox(x);
+    newLine();
+}
 
+// Image Decoder
+for (var letter of img) {
+    if (letter !== 'e') {
+        drawBoxes(letter);
+    }
+}
 
+// Which Direction?
+// What will be the output of this code?
+for (var element of [5,4,3,2,0,1]) {
+    print(element);
+}
+// output will be '5, 4, 3, 2, 0, 1'
 
+// Loops II
+//
 
+// Counting with Loops
+for (var i = 0; i < 10; i = i + 1) {
+    print(i);
+}
 
+// Happy New Year
+for (var i = 10; i > 0; i = i - 1) {
+    print(i);
+}
+print('Happy New Year!');
 
+// What's i?
+// What will be the output of this code?
+for (var i = 0; i < 5; i = i + 1) {
+    print(i);
+}
+// output will be `0, 1, 2, 3, 4`
 
+// Band Names Generator
+for (var adj of [
+    'Raging',
+    'Happy',
+    'Hungry'
+]) {
+    for (var noun of [
+        'Pharmacists',
+        'Squids',
+        'Twins'
+    ]) {
+        print('The ' + adj + ' ' + noun);
+    }
+}
 
+// What's the Order?
+// What will be the output of this code?
+for (var activity of ['dancing', 'jumping', 'singing']) {
+    for (var family of ['brother', 'mother', 'father']) {
+        print(activity + ' ' + family);
+    }
+}
+// output will be
+// dancing brother
+// dancing mother
+// dancing father
+// jumping brother
+// jumping mother
+// jumping father
+// singing brother
+// singing mother
+// singing father
 
+// Object Expressions
+//
 
-
-
-
-
-
-
-
+// Custom colors
 
 
