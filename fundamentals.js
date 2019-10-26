@@ -236,12 +236,43 @@ print(y);
 y = y / 3;
 print(y);
 
+// How Much?
+// What will be the final value of the `x` variable?
+var x = 1;
+x = x + 3;
+x = 10 - x;
+print(x);
+// final value will be `6`.
 
+// How Many Seconds?
+// There are 60 seconds in a minute. How would you convert minutes into seconds?
+var minutes = 35;
+// var seconds = minutes * 60;
 
+// Open the Lock
+print('pinNumber is ' + pinNumber);
+print('foundKey is ' + foundKey);
+if (foundKey === 'yes' && pinNumber === 10) {
+    print('You opened the lock!');
+}
+if (foundKey === 'no' && pinNumber === 10) {
+    print('The pin number is right, but you are missing the key.');
+}
 
+// Describe the Numbers
+print('x is ' + x);
+print('y is ' + y);
+if (x > 3 && y < 11) {
+    print('x is greater than 3, and y is less than 11');
+}
+if (x > 10 || y > 10) {
+    print('x or y, or both, are greater than 10');
+}
 
+// Loops
+//
 
-
+// String Looping
 
 
 
