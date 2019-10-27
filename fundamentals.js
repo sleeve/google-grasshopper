@@ -365,5 +365,99 @@ for (var activity of ['dancing', 'jumping', 'singing']) {
 //
 
 // Custom colors
+var someCustomColor = {
+    red: 255,
+    green: 0,
+    blue: 255
+};
+drawBox(someCustomColor);
+
+// Make a Name for Yourself
+var name = {
+    first: 'Martin',
+    middle: 'Luther',
+    last: 'King'
+}
+print(name.first + name.middle + name.last);
+
+// Which Transmission
+// What is the value of the `transmission` property in car?
+var car = {
+    transmission: 'automatic',
+    doors: 4,
+    color: blue
+};
+// value is `automatic`.
+
+// How Blue Can You Get?
+print(rgbObject.blue);
+if (rgbObject.blue > 200) {
+    drawBox(rgbObject);
+}
+
+// Which Color?
+// What color box will this code create?
+var rgbObject = {
+    red: 0,
+    green: 0,
+    blue: 255
+};
+drawBox(rgbObject);
+// a blue color box will be created.
+
+// What's Sugar
+// What is the value stored in the the variable `sugar`?
+var teacup = {
+    red: 100,
+    green: 50,
+    blue: 50
+}
+var sugar = teacup.blue;
+// the value stored will be 50
+
+// Is It Blue Enough?
+// Which code will draw a box only if the blue property of rgbObject is more than 10?
+var rgbObject = {
+    red: 128,
+    green: 64,
+    blue: 32
+};
+// the following code will draw the box correctly
+// if (rgbObject.blue > 10) {
+//     drawBox(rgbObject);
+// }
+
+// Climb the Mountain
+//
+
+// State Your Goal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
