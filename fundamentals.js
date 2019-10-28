@@ -431,33 +431,53 @@ var rgbObject = {
 //
 
 // State Your Goal
+print('I am going to climb a mountain');
 
+// Pack Your Bag
+var myBackpack = {
+    food: 'bananas',
+    equipment: 'map',
+    clothing: 'hat'
+};
+print(myBackpack.food);
 
+// Get More Supplies
+var myBackpack2 = {
+    food: [
+        'bananas', 
+        'nuts', 
+        'energy bar'
+    ],
+    equipment: [
+        'map', 
+        'compass'
+    ],
+    clothing: [
+        'scarf', 
+        'jacket', 
+        'hat']
+};
+print(myBackpack2.food);
+print(myBackpack2.equipment);
+print(myBackpack2.clothing);
 
+// Update Your Progress
+var elevation = 100
+print(elevation);
+elevation = elevation + 455
+print(elevation);
 
+// Backpack Mistake
+for (var element of otherBackpack.food) {
+    print(element);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// The Final Ascent
+for (var element of otherBackpack.equipment) {
+    if (element === 'rope') {
+        print('I found some rope!');
+    }
+    else {
+        print('Rope not found.');
+    }
+}
