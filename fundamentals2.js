@@ -68,18 +68,53 @@ if (x > 5) {
 print(x);
 // the output will be `10`
 
+// Roads or Rails
+var timeOffWork = 7;
+var daysNeeded = 5;
+timeOffWork > daysNeeded ? print('Go on vacation') : print('Go to work');
+var train = 3;
+var car = 2;
+car < train ? print('Drive a car') : print('Buy train tickets');
 
+// Which of the Three?
+// Which 2 symbols does the ternary operator use?
+// it uses `?` and `:`
 
+// Simpler Math
+let x = 5;
+x++;
+print('x is ' + x);
+x--;
+print('x is now ' + x);
 
+// Winter is Coming
+let ant = 40;
+let gift = 10;
+let grasshopper = 0;
+ant -= gift;
+grasshopper += gift;
+print('The ant has ' + ant + ' seeds, and the Grasshopper has ' + grasshopper + ' seeds');
 
+// Subtraction of Addition?
+// What will be the output of this code?
+let x = 3;
+x += 2;
+print(x);
+// the output will be `5`
 
+// Console Loggin'
+print('In Grasshopper, the print() function logs strings and numbers to the console window');
+console.log('console.log can also log to the console window');
+console.log('and also works outside Grasshopper.')
 
+// Where to Log?
+// What should the .log() method be called with to print out a string?
+// it is `console` .log()
 
+// Functions
+//
 
-
-
-
-
+// Money Changer
 
 
 
