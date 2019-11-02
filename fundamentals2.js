@@ -125,8 +125,20 @@ console.log('100 US dollars is:');
 console.log(inYen(100) + ' Japanese yen');
 
 // A Little More Change
+let wallet = 50;
+function inYen(dollars) {
+    let amount = dollars * 113;
+    return amount;
+};
+function inBaht(dollars) {
+    let amount = dollars * 33;
+    return amount;
+};
+console.log(wallet + ' US dollars is:');
+console.log(inYen(wallet) + ' Japanese yen');
+console.log(inBaht(wallet) + ' Thai baht');
 
-
+// Half as Much?
 
 
 
