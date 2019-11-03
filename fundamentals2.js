@@ -139,7 +139,15 @@ console.log(inYen(wallet) + ' Japanese yen');
 console.log(inBaht(wallet) + ' Thai baht');
 
 // Half as Much?
+// What will be the output of this code?
+function half(value) {
+    return value/2;
+}
+let x = 8;
+console.log(half(x));
+// output will be `4`
 
+// To the Max
 
 
 
