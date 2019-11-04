@@ -148,8 +148,31 @@ console.log(half(x));
 // output will be `4`
 
 // To the Max
+function larger(a, b) {
+    return a > b ? a : b;
+};
+function maximum(array) {
+    let max = 0;
+    for (let num of array) {
+        max = larger(max, num);
+    }
+    return max;
+};
+console.log(list);
+console.log(maximum(list));
 
+// Replacing It All
+function updateAllNames(string, oldPart, newPart) {
+    if (string.includes(oldPart) === false) {
+        return string;
+    }
+    string = string.replace(oldPart, newPart);
+    return updateAllNames(string, oldPart, newPart);
+};
+console.log(travelDocument);
+console.log(updateAllNames(travelDocument, 'grasshoper', 'grasshopper'))
 
+// Recursion Replacement
 
 
 
