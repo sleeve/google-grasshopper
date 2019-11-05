@@ -173,8 +173,17 @@ console.log(travelDocument);
 console.log(updateAllNames(travelDocument, 'grasshoper', 'grasshopper'))
 
 // Recursion Replacement
+function updateAllNames(string, oldPart, newPart) {
+    if (string.includes(oldPart) === false) {
+        return string;
+    }
+    string = string.replace(oldPart, newPart);
+    return updateAllNames(string, oldPart, newPart);
+};
+console.log(travelDocument);
+console.log(updateAllNames(travelDocument, 'grasshoper', 'grasshopper'))
 
-
+// When Will It Stop?
 
 
 
