@@ -184,7 +184,17 @@ console.log(travelDocument);
 console.log(updateAllNames(travelDocument, 'grasshoper', 'grasshopper'))
 
 // When Will It Stop?
+// When will the `sumUpTo()` function stop calling itself (stop recursing)?
+function sumUpTo(number) {
+    if (number === 1) {
+        return 1;
+    }
+    return number + sumUpTo(number - 1);
+}
+console.log(sumUpTo(2));
+// It will stop when `number` is equal to 1.
 
+// My Assistant
 
 
 
