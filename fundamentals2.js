@@ -195,8 +195,14 @@ console.log(sumUpTo(2));
 // It will stop when `number` is equal to 1.
 
 // My Assistant
+function myAssistant(time, callbackFunction) {
+    console.log('I am your personal assistant, and I am happy to help with your request');
+    callbackFunction(time);
+};
+myAssistant('6pm', recordShow);
+myAssistant('10am',setAlarm);
 
-
+// Assistant Upgrade
 
 
 
