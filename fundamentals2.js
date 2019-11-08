@@ -203,8 +203,19 @@ myAssistant('6pm', recordShow);
 myAssistant('10am',setAlarm);
 
 // Assistant Upgrade
+import { recordShow, setAlarm, turnOffFan, turnOnFan, turnOffLight, turnOnLight } from 'assistantFunctions';
+function myAssistant(time, callbackFunction) {
+    console.log('Scheduling:');
+    callbackFunction(time);
+    console.log('Complete.');
+};
+myAssistant('8am', turnOnFan);
+myAssistant('6pm', turnOffFan);
 
+// Array Manipulation
+//
 
+// How Many?
 
 
 
