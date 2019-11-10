@@ -216,6 +216,37 @@ myAssistant('6pm', turnOffFan);
 //
 
 // How Many?
+import { listOfDestinations } from 'grasshopper.travel';
+let numberOfDestinations = listOfDestinations.length;
+console.log('There are ' + numberOfDestinations + ' to choose from.');
+
+// Fix the Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
