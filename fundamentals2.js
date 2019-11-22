@@ -221,8 +221,19 @@ let numberOfDestinations = listOfDestinations.length;
 console.log('There are ' + numberOfDestinations + ' to choose from.');
 
 // Fix the Data
+import { transportation } from 'grasshopper.travel';
+let cities = [
+    'London',
+    'London',
+    'London',
+    'Lagos',
+    'Lisbon',
+    'Louisville',
+];
+console.log(cities.slice(2, 6));
+console.log(transportation.slice(2, 6));
 
-
+// A New Place
 
 
 
